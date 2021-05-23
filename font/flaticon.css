@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?351514cbe0264241a9e64d0630e15dd5") format("truetype"),
+url("./flaticon.woff?351514cbe0264241a9e64d0630e15dd5") format("woff"),
+url("./flaticon.woff2?351514cbe0264241a9e64d0630e15dd5") format("woff2"),
+url("./flaticon.eot?351514cbe0264241a9e64d0630e15dd5#iefix") format("embedded-opentype"),
+url("./flaticon.svg?351514cbe0264241a9e64d0630e15dd5#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-web-maintenance:before {
+    content: "\f101";
+}
+.flaticon-creativity:before {
+    content: "\f102";
+}
+.flaticon-brand:before {
+    content: "\f103";
+}
+.flaticon-adobe-photoshop-logo:before {
+    content: "\f104";
+}

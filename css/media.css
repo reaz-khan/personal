@@ -1,0 +1,503 @@
+@media(min-width: 1200px) and (max-width:1399.98px){
+
+	.banner-text {
+		padding-top: 100px;
+	}
+	
+
+}
+
+
+
+
+@media(min-width: 992px) and (max-width:1199.98px){
+	
+	.navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+       
+        box-shadow: none;
+    }
+    .nav-link {
+        border-radius: 0;
+        border: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        text-align: center;
+}
+.banner-text {
+	padding-top: 100px;
+    height: 70vh;
+}
+.banner-text h3 {
+	
+	font-size: 50px;
+	
+}
+.banner-text span {
+	
+	font-weight: 500;
+	
+}
+#banner {
+		height: 70vh;
+}
+#about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.about-text h3 {
+	
+	font-size: 30px;
+	padding-left: 20px;
+	line-height: 1.8;
+	padding-top: 40px;
+}
+.about-text h3 .big {
+	
+	font-size:100px;
+	padding-top: 70px;
+    color: inherit;
+}
+#portfolio {
+	padding-top: 40px;
+	
+}
+.portfolio h3 .big {
+	
+	font-size: 90px;
+	color: inherit;
+}
+.portfolio h3 {
+	font-size: 35px;
+	padding-top: 30px;
+}
+.card {
+	padding-top: 50px;
+	
+}
+.card-img img {
+	
+	width: 95%;
+}
+#blog {
+	padding-top: 40px;
+	padding-bottom: 150px;
+}
+.blog h3 .big {
+	
+	font-size: 100px;
+	color: inherit;
+}
+.blog h3 {
+	font-size: 28px;
+	padding-top: 30px;
+}
+.blog-text h6 {
+	padding-top: 50px;
+	
+}
+.contact h3 .big {
+	color: inherit;
+	font-size: 100px;	
+}
+.contact h3 {
+	font-size: 30px;
+	padding-top: 30px;
+}
+#contact {
+	padding-top: 50px;
+	
+}
+.contact-form {
+	padding-top: 90px;
+}
+.contact-form a {
+	padding: 10px;
+	font-size: 16px;
+}
+.map img {
+	
+	width: 90%;
+}
+
+}
+
+
+
+
+@media(min-width: 768px) and (max-width:991.98px){
+	
+	.navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+       
+        box-shadow: none;
+    }
+    .nav-link {
+        border-radius: 0;
+        border: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        text-align: center;
+}
+.navbg{
+  
+    animation: sticky 1s;
+    -webkit-animation: sticky 1s;
+}
+
+@keyframes sticky{
+    from{
+        top: -66px;
+    }
+    to{
+        top: 0;
+    }
+}
+.banner-text {
+	padding-top: 100px;
+    height: 70vh;
+}
+.banner-text h3 {
+	
+	font-size: 50px;
+	
+}
+.banner-text span {
+	
+	font-weight: 500;
+	
+}
+#banner {
+		height: 100px;
+}
+#about {
+	/* padding-top: 50px; */
+	padding-bottom: 50px;
+}
+.about-text h3 {
+	
+	font-size: 30px;
+	padding-left: 20px;
+	line-height: 1.8;
+	padding-top: 40px;
+}
+.about-text h3 .big {
+	
+	font-size:100px;
+	padding-top: 70px;
+    color: inherit;
+}
+#portfolio {
+	padding-top: 40px;
+	
+}
+.portfolio h3 .big {
+	
+	font-size: 55px;
+	color: inherit;
+}
+.portfolio h3 {
+	font-size: 25px;
+	padding-top: 30px;
+}
+.card {
+	padding-top: 50px;
+	
+}
+.card-img img {
+	
+	width: 95%;
+}
+#blog {
+	padding-top: 40px;
+	padding-bottom: 150px;
+}
+.blog h3 .big {
+	
+	font-size: 100px;
+	color: inherit;
+}
+.blog h3 {
+	font-size: 28px;
+	padding-top: 30px;
+}
+.blog-text h6 {
+	padding-top: 50px;
+	
+}
+.contact h3 .big {
+	color: inherit;
+	font-size: 55px;	
+}
+.contact h3 {
+	font-size: 30px;
+	padding-top: 30px;
+}
+#contact {
+	padding-top: 50px;
+	
+}
+.contact-form {
+	padding-top: 90px;
+}
+.contact-form a {
+	padding: 10px;
+	font-size: 16px;
+}
+.map img {
+	
+	width: 90%;
+}
+}
+@media(min-width: 576px) and (max-width:767.98px){
+	.navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+       
+        box-shadow: none;
+    }
+    .nav-link {
+        border-radius: 0;
+        border: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        text-align: center;
+}
+
+.banner-text {
+	padding-top: 100px;
+    height: 70vh;
+}
+.banner-text h3 {
+	
+	font-size: 50px;
+	
+}
+.banner-text span {
+	
+	font-weight: 500;
+	
+}
+#banner {
+		height: 70vh;
+}
+#about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.about-text h3 {
+	
+	font-size: 40px;
+	padding-left: 20px;
+	line-height: 1.8;
+	padding-top: 40px;
+}
+.about-text h3 .big {
+	
+	font-size: 100px;
+	padding-top: 70px;
+    color: inherit;
+}
+#portfolio {
+	padding-top: 40px;
+	
+}
+.portfolio h3 .big {
+	
+	font-size: 80px;
+	color: inherit;
+}
+.portfolio h3 {
+	font-size: 30px;
+	padding-top: 30px;
+}
+.card {
+	padding-top: 50px;
+	
+}
+.card-img img {
+	
+	width: 95%;
+}
+#blog {
+	padding-top: 40px;
+	padding-bottom: 150px;
+}
+.blog h3 .big {
+	
+	font-size: 90px;
+	color: inherit;
+}
+.blog h3 {
+	font-size: 28px;
+	padding-top: 30px;
+}
+.blog-text h6 {
+	padding-top: 50px;
+	
+}
+.contact h3 .big {
+	color: inherit;
+	font-size: 70px;	
+}
+.contact h3 {
+	font-size: 30px;
+	padding-top: 30px;
+}
+#contact {
+	padding-top: 50px;
+	
+}
+.contact-form {
+	padding-top: 40px;
+}
+.contact-form a {
+	padding: 10px;
+	font-size: 16px;
+}
+.map img {
+	
+	width: 90%;
+}
+
+}
+
+
+@media(max-width:575.98px){
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+       
+        box-shadow: none;
+    }
+    .nav-link {
+        border-radius: 0;
+        border: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        text-align: center;
+}
+.navbg{
+  
+    animation: sticky 1s;
+    -webkit-animation: sticky 1s;
+}
+
+@keyframes sticky{
+    from{
+        top: -70px;
+    }
+    to{
+        top: 0;
+    }
+}
+.banner-text {
+	padding-top: 100px;
+    height: 70vh;
+}
+.banner-text h3 {
+	
+	font-size: 50px;
+	
+}
+.banner-text span {
+	
+	font-weight: 500;
+	
+}
+#banner {
+		height: 70vh;
+}
+#about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.about-text h3 {
+	
+	font-size: 30px;
+	padding-left: 20px;
+	line-height: 1.8;
+	padding-top: 40px;
+}
+.about-text h3 .big {
+	
+	font-size: 75px;
+	padding-top: 70px;
+    color: inherit;
+}
+#portfolio {
+	padding-top: 40px;
+	
+}
+.portfolio h3 .big {
+	
+	font-size: 48px;
+	color: inherit;
+}
+.portfolio h3 {
+	font-size: 25px;
+	padding-top: 30px;
+}
+.card {
+	padding-top: 50px;
+	
+}
+.card-img img {
+	
+	width: 95%;
+}
+#blog {
+	padding-top: 40px;
+	padding-bottom: 150px;
+}
+.blog h3 .big {
+	
+	font-size: 75px;
+	color: inherit;
+}
+.blog h3 {
+	font-size: 28px;
+	padding-top: 30px;
+}
+.blog-text h6 {
+	padding-top: 50px;
+	
+}
+.contact h3 .big {
+	color: inherit;
+	font-size: 55px;	
+}
+.contact h3 {
+	font-size: 30px;
+	padding-top: 30px;
+}
+#contact {
+	padding-top: 50px;
+	
+}
+.contact-form {
+	padding-top: 40px;
+}
+.contact-form a {
+	padding: 10px;
+	font-size: 16px;
+}
+.map img {
+	
+	width: 90%;
+}
+}
