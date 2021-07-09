@@ -2,6 +2,8 @@ $ (function(){
 // youtube video
 $('.venobox').venobox();
 
+
+
 //About slider
 $('.about-slider').slick({
     slidesToShow: 3,

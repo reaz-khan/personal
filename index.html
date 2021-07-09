@@ -15,13 +15,14 @@
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/style.css ">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="focuspoint.css">
     
     
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar-nav" data-bs-offset='100'>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset='100'>
 
     <!------- navpart goes here------- -->
-    <nav class="navbar navbar-expand-lg navbg" >
+    <nav class="navbar navbar-expand-lg navbg " aria-label="breadcrumb" style="--bs-breadcrumb-divider: ''>
         <div class="container">
           <a class="navbar-brand" href="#">
               <img src="#" alt="logo">
@@ -30,25 +31,28 @@
             <i class="fa fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+            <ol class="navbar-nav ms-auto mb-2 mb-lg-0 breadcrumb">
+              <li class="nav-item breadcrumb-item ">
                 <a class="nav-link " aria-current="page" href="#banner">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item breadcrumb-item">
                 <a class="nav-link" href="#about">about</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item breadcrumb-item">
                 <a class="nav-link" href="#portfolio">portfolio</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item breadcrumb-item">
                 <a class="nav-link" href="#blog">blog</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item breadcrumb-item">
+                <a class="nav-link" href="#news">news</a>
+              </li>
+              <li class="nav-item breadcrumb-item active">
                 <a class="nav-link" href="#contact">contact</a>
               </li>
               
              
-            </ul>
+            </ol>
            
           </div>
         </div>
@@ -144,9 +148,9 @@
              <div class="row">
              <div class="col-lg-4 col-sm-6">
               <div class="card bg-transparent border-0, " >
-                <img src="images/solonic dance.jpg"  alt="solo dance">
+                <img src="images/field-6289253_640.jpg"  alt="field">
                 <div class="card-body">
-                  <h5 class="card-title">solonic dance</h5>
+                  <h5 class="card-title">nature</h5>
                   <p class="card-text"><span><a href="#">photography</a></span></p>
                   
                 </div>
@@ -169,27 +173,27 @@
              </div>
              <div class="col-lg-4 col-sm-6">
               <div class="card bg-transparent border-0, " >
-                <img src="images/solonic dance.jpg" alt="solo dance">
+                <img src="images/mosque-6153752_640.jpg" alt="mosque">
                 <div class="card-body">
-                  <h5 class="card-title">solonic dance</h5>
+                  <h5 class="card-title">Mosque</h5>
                   <p class="card-text"> <span><a href="#">photography</a></span></p>
                 </div>
               </div>
              </div>
              <div class="col-lg-4 col-sm-6">
               <div class="card bg-transparent border-0, " >
-                <img src="images/solonic dance.jpg" alt="solo dance">
+                <img src="images/raspberries-5163781_640.jpg" alt="fruits">
                 <div class="card-body">
-                  <h5 class="card-title">solonic dance</h5>
+                  <h5 class="card-title">fruits</h5>
                   <p class="card-text"> <span><a href="#">photography</a></span></p>
                 </div>
               </div>
              </div>
              <div class="col-lg-4 col-sm-6">
               <div class="card bg-transparent border-0, " >
-                <img src="images/solonic dance.jpg" alt="solo dance">
+                <img src="images/xiamen-3515964_640.jpg" alt="solo dance">
                 <div class="card-body">
-                  <h5 class="card-title">solonic dance</h5>
+                  <h5 class="card-title">city</h5>
                   <p class="card-text"> <span><a href="#">photography</a></span></p>
                 </div>
               </div>
@@ -240,24 +244,111 @@
                 <div class="card-blog mb-3" >
                   <div class="row g-0">
                     <div class="col-md-4">
-                      <div class="card-blog-img">
+                      <div class="card-blog-img active">
                         <img src="images/blog1.jpg" alt="blog">
-                        <div class="card-blog-overlay"></div>
+                        
                       </div>
                     </div>
                     <div class="col-md-8">
-                      <div class="card-body">
+                      <div class="card-body active">
                         <h5 class="card-title-blog">Collin powel</h5>
                         <h3 class="card-text-blog">web developer</h3>
                       </div>
                     </div>
                   </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <div class="card-blog-img">
+                        <img src="images/blog1.jpg" alt="blog">
+                      
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title-blog">andrew johnson</h5>
+                        <h3 class="card-text-blog">graphic designer</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <div class="card-blog-img">
+                        <img src="images/blog1.jpg" alt="blog">
+                   
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title-blog">john stephan</h5>
+                        <h3 class="card-text-blog">motion designer</h3>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <div class="col-lg-3 my-5">
+            
+                <div class="btn"><img src="images/blog1.jpg" alt="blog"></div>
+                 
+
+              </div>
+               <div class="col-lg-3 my-5">
+               
+                  <button class="btn"> <a href="#"><img src="images/blog1.jpg" alt="blog"></a></button> 
+              
+                    <button class="btn"> <a href="#"><img src="images/blog1.jpg" alt="blog"></a></button> 
+                    
+
+              
+          </div> 
+       <!-- ================news part============ -->
+
+    </section>
+
+
+    <section id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="news">
+              <h3> latest news <span class="big">news</span></h3>
             </div>
-          </div>
-        </div>
-      </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="news1" ">
+                  <img src="images/beach-news.jpg" class="card-img-top" alt="news1">
+                  <div class="card-body">
+                    <h3 class="card-title">Alex Watson/10 May 2021</h3>
+                    <h5 class="card-text">Some quick example text to build on the card title .</h5>
+                   
+                  </div>
+                </div>
+                  
+              </div>
+              <div class="col-lg-3">
+                <div class="news1" ">
+                  <img src="images/wind-power-news.jpg" class="card-img-top" alt="news1">
+                  <div class="card-body">
+                    <h3 class="card-title">Alex Watson/10 May 2021</h3>
+                    <h5 class="card-text">Some quick example text to build on the card title .</h5>
+                   
+                  </div>
+                </div>
+                  
+              </div>
+              <div class="col-lg-3">
+                <div class="news1" ">
+                  <img src="images/morning-news.jpg" class="card-img-top" alt="news1">
+                  <div class="card-body">
+                    <h3 class="card-title">Alex Watson/10 May 2021</h3>
+                    <h5 class="card-text">Some quick example text to build on the card title .</h5>
+                   
+                  </div>
+                </div>
+                  
+              </div>
+            </div>
+
 
     </section>
 
@@ -359,6 +450,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/venobox.min.js"></script>
     <script src="js/custom.js"></script>
+    
 
 
 
